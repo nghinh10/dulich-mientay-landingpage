@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Khám phá du lịch miền Tây</title>
+
+<style>
+
+body{
+font-family: Arial, sans-serif;
+margin:0;
+padding:0;
+background:#f5f5f5;
+line-height:1.6;
+}
+
+header{
+background:url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e") center/cover;
+height:450px;
+color:white;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+}
+
+header h1{
+font-size:48px;
+margin-bottom:10px;
+}
+
+header p{
+font-size:20px;
+}
+
+.cta{
+background:#ff7a00;
+color:white;
+padding:15px 30px;
+border-radius:5px;
+text-decoration:none;
+font-size:18px;
+margin-top:20px;
+}
+
+.section{
+padding:60px 10%;
+background:white;
+margin-bottom:10px;
+}
+
+.section h2{
+text-align:center;
+margin-bottom:40px;
+color:#333;
+}
+
+.features{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:30px;
+}
+
+.card{
+background:#fafafa;
+padding:20px;
+border-radius:8px;
+box-shadow:0 2px 8px rgba(0,0,0,0.1);
+text-align:center;
+}
+
+.card img{
+width:100%;
+border-radius:8px;
+}
+
+.timeline{
+max-width:800px;
+margin:auto;
+}
+
+.timeline div{
+margin-bottom:20px;
+padding:15px;
+background:#fafafa;
+border-left:5px solid #ff7a00;
+}
+
+.testimonial{
+background:#fff3e6;
+padding:40px;
+text-align:center;
+}
+
+footer{
+background:#333;
+color:white;
+text-align:center;
+padding:30px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<h1>Khám phá miền Tây sông nước</h1>
+
+<p>Trải nghiệm văn hóa – ẩm thực – thiên nhiên đặc sắc</p>
+
+<a href="#register" class="cta">Đăng ký trải nghiệm ngay</a>
+
+</header>
+
+
+<section class="section">
+
+<h2>Vì sao nên chọn tour miền Tây?</h2>
+
+<div class="features">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c">
+<h3>Chợ nổi</h3>
+<p>Trải nghiệm văn hóa chợ nổi đặc trưng của vùng sông nước.</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee">
+<h3>Miệt vườn</h3>
+<p>Tham quan vườn trái cây và thưởng thức đặc sản miền Tây.</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1500534314209-a26db0f5b8e9">
+<h3>Đờn ca tài tử</h3>
+<p>Thưởng thức âm nhạc truyền thống Nam Bộ.</p>
+</div>
+
+</div>
+
+</section>
+
+
+<section class="section">
+
+<h2>Lịch trình trải nghiệm</h2>
+
+<div class="timeline">
+
+<div>
+<strong>Ngày 1</strong><br>
+Tham quan chợ nổi – trải nghiệm chèo xuồng – thưởng thức ẩm thực địa phương
+</div>
+
+<div>
+<strong>Ngày 2</strong><br>
+Tham quan vườn trái cây – nghe đờn ca tài tử – check-in cảnh đẹp miền Tây
+</div>
+
+</div>
+
+</section>
+
+
+<section class="testimonial">
+
+<h2>Cảm nhận của du khách</h2>
+
+<p>"Một trải nghiệm văn hóa tuyệt vời khi đến miền Tây. Không gian sông nước rất đẹp."</p>
+
+<p>"Âm nhạc đờn ca tài tử rất đặc biệt và sâu lắng."</p>
+
+</section>
+
+
+<section class="section" id="register">
+
+<h2>Đăng ký tham gia trải nghiệm</h2>
+
+<form style="max-width:500px;margin:auto">
+
+<input type="text" placeholder="Họ và tên" style="width:100%;padding:10px;margin-bottom:10px">
+
+<input type="email" placeholder="Email" style="width:100%;padding:10px;margin-bottom:10px">
+
+<input type="tel" placeholder="Số điện thoại" style="width:100%;padding:10px;margin-bottom:10px">
+
+<button style="background:#ff7a00;color:white;padding:15px;border:none;width:100%;font-size:18px">
+Đăng ký ngay
+</button>
+
+</form>
+
+</section>
+
+
+<footer>
+
+<p>© 2026 Du lịch miền Tây | Trải nghiệm văn hóa sông nước</p>
+
+</footer>
+
+</body>
+</html>
